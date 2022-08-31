@@ -26,8 +26,8 @@
     align-items: flex-start;
 }
 .logo{
-    width: 140px;
-    border-radius: 6px;
+    width: 130px;
+    border-radius: 6px solid grey;
     height: auto;
     display: flex;
    
