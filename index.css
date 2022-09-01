@@ -1,22 +1,29 @@
 
 body{
-    background-color: blue;
+    background-color: white;
 }
 .container-master {
     background-color:rgba(55, 121, 245, 0.897) ;
     width: 100%;
-    height: 100%;
+    height: 150%;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    overflow: scroll;
+    
+    
+    
    
     
 }
 .container-header{
    background-color:white; 
    width: 100%;
-   height: 15%;
+   height: 10%;
    display: flex;
+   justify-content: flex-start;
+
 
 
 }
@@ -26,13 +33,9 @@ body{
     height: 100%;
     display: flex;
 
-}
-img {
-    width: 50%;
-    height: 100%;
-  
+}  
     
-}
+
 .container-button {
     width: 100%;
     width: 80%;
@@ -50,25 +53,80 @@ input {
     height: 50%;
     border: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
-     
+    font-size: 25px; 
+   
+
 }
 .container-section {
-width: 85%;
-height: 45%;
-background-color: white;
-display: flex;
-justify-content: center;
-align-items: flex-end;
-
+    width: 90%;
+    height: 40%;
+    margin: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}     
+.container-section2 {
+    width: 90%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    margin: 7px;
 
 
 }
 .container-img{
-width: 100%;
-height: 100%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    
+}
+.container-slogan{
+width: 50%;
+height: 50%;
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 align-items: center;
+flex-direction: column;
+
 
 }
+.container-button2{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+   
+}
+
+button{
+    
+    background-color: rgb(63, 85, 212);
+    border: 2px;
+    border-radius: 5px;
+    margin: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+
+}
+h2{
+    font-size: xx-large;
+    margin: 30px;
+    color: darkblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h4 {
+font-size:large ;
+margin: 5px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+    
