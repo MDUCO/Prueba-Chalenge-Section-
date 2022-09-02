@@ -91,6 +91,7 @@ ul {
     height: 50%;
     background-color: rgb(228, 222, 222);
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items:center;
     flex-direction: column;
@@ -106,6 +107,7 @@ height: 60%;
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
 flex-direction: column;
 
 
