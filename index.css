@@ -60,8 +60,8 @@ input {
 
 }
 .container-section {
-    width: 90%;
-    height: 40%;
+    width: 100%;
+    height: 50%;
     margin: 12px;
     background-color:transparent;
     padding: 10px;
@@ -74,14 +74,14 @@ input {
 
 
 .container-section2 {
-    width: 90%;
+    width: 100%;
     height: 40%;
-    background-color: transparent;
+    background-color: rgb(228, 222, 222);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items:center;
     flex-direction: column;
-    margin: 7px;
+    margin: 10px;
 
 
 }
@@ -143,9 +143,14 @@ h2{
 h4 {
 font-size:40px;
 margin: 5px;
-opacity: 1;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: rgb(0, 0, 0);
+
+
+}
+H5 {
+    color: rgb(240, 166, 6);
+    margin: 5PX;
 
 }
 
@@ -155,5 +160,6 @@ color: rgb(0, 0, 0);
     background-color: black;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
